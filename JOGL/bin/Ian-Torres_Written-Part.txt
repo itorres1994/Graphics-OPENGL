@@ -1,0 +1,11 @@
+Ian Torres - 27621588
+CICS 373
+Assignment 1: Written Part
+
+In the "display(GLAutoDrawable)" method if the mouse is clicked (mouseClick) 
+then the shade and corresponding shape is redrawn to the window, "drawShape()".
+Display gets the pixel value of the mouse using the 
+"glReadPixels(int, int, int, int, int, int, Buffer)". If the pixel value equals
+the byte value (255) then the mouse has been clicked on the shape, since the
+shape has been painted that color.
+
